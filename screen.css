@@ -1,0 +1,39 @@
+/* screen.css- Project 2- Itm 361 */ 
+/* This is the CSS file for the screen media type. It contains styles that are applied when the webpage is viewed on a screen, such as a computer monitor or mobile device. */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap');
+
+/* Define CSS variables for colors, fonts, and other design elements to maintain consistency across the website and make it easier to update styles in the future. */
+:root{ 
+    --color-bg: #0f0f0f; /* Background color for the entire webpage */
+    --color-surface: #1a1a1a: /* Background color for cards, modals, and other surface elements */
+    --color-card: #222222; /* Background color for individual cards or sections */
+    --color-accent: #c9a84c; /* Primary accent color used for buttons, links, and other interactive elements */
+    --color-accent-light: #e8c97a; /* Lighter shade of the accent color */
+    --color-text: #e8e4dc; /* Text color for primary content */
+    --color-text-muted: #888888; /* Text color for muted or secondary content */
+    --color-border: #2e2e2e; /* Border color for various elements */
+    --font-display: 'Playfair Display', Georgia, serif; /* Font family for headings and display text */
+    --font-body: 'DM Sans', Helvetica, sans-serif; /* Font family for body text and general content */
+    --max-width: 62rem; /* Maximum width for the main content area to ensure readability on larger screens */
+    --nav-height: 4rem; /* Height of the navigation bar */
+}
+*, *::before, *::after {
+    box-sizing: border-box; /* Ensure that padding and borders are included in the total width and height of elements */
+}
+
+/*Sets the base font size and enables smooth scrolling when clicking links */
+html {
+    font-size: 16px; 
+    scroll-behavior: smooth; 
+}
+
+/* Styles for the body element, including background color, text color, font family, and line height for improved readability */
+body {
+    background-color: var(--color-bg); 
+    color: var(--color-text); 
+    font-family: var(--font-body); 
+    font-weight: 300;
+    line-height: 1.7;
+    min-height: 100vh; 
+}
