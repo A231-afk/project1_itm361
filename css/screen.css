@@ -6,7 +6,7 @@
 /* Define CSS variables for colors, fonts, and other design elements to maintain consistency across the website and make it easier to update styles in the future. */
 :root{ 
     --color-bg: #0f0f0f; /* Background color for the entire webpage */
-    --color-surface: #1a1a1a; /* Background color for cards, modals, and other surface elements */
+    --color-surface: #1a1a1a: /* Background color for cards, modals, and other surface elements */
     --color-card: #222222; /* Background color for individual cards or sections */
     --color-accent: #c9a84c; /* Primary accent color used for buttons, links, and other interactive elements */
     --color-accent-light: #e8c97a; /* Lighter shade of the accent color */
@@ -37,4 +37,3 @@ body {
     line-height: 1.7;
     min-height: 100vh; 
 }
-
