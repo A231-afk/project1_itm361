@@ -1,2 +1,2 @@
-# project1_itm361
-Basic html portfolio 
+# project2_itm361
+Basic html portfolio added css. 
