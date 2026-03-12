@@ -133,3 +133,40 @@ nav ul li a:hover {
     color: var(--color-accent);
     border-color: var(--color-accent);
 }
+img { 
+    display: block; 
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 1.25rem 0; 
+    border: 1px solid var(--color-border);
+}
+main ul {
+    list-style: none;
+    padding-left: 0;
+}
+main ul li {
+    padding: 0.4rem 0;
+    padding-left: 1.25rem;
+    position: relative; 
+    color: var(--color-text);
+    border-bottom: 1px solid var(--color-border);
+}
+main ul li:last-child {
+    border-bottom: none; 
+} 
+main ul li::before{
+    content: '->';
+    position: absolute; 
+    left: 0; 
+    color: var(--color-accent);
+    font-size: 0.85rem; 
+}
+iframe{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    margin: 1.25rem 0; 
+}
