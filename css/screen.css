@@ -189,9 +189,16 @@ main > p:first-of-type {
     padding-left: 1rem;
     margin-bottom: 2.5rem;
 }
-
 .resume-contact{
     font-size: 0.9rem;
     color: var(--color-text-muted);
     margin-bottom: 2rem
 }
+main ul li p {
+    font-size: 0.92rem;
+    color: var(--color-text-muted); 
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
