@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap');
 
+/* Define CSS variables for colors, fonts, and other design elements to maintain consistency across the website and make it easier to update styles in the future. */
 :root{ 
     --color-bg: #0f0f0f; /* Background color for the entire webpage */
     --color-surface: #1a1a1a: /* Background color for cards, modals, and other surface elements */
@@ -16,4 +17,23 @@
     --font-body: 'DM Sans', Helvetica, sans-serif; /* Font family for body text and general content */
     --max-width: 62rem; /* Maximum width for the main content area to ensure readability on larger screens */
     --nav-height: 4rem; /* Height of the navigation bar */
+}
+*, *::before, *::after {
+    box-sizing: border-box; /* Ensure that padding and borders are included in the total width and height of elements */
+}
+
+/*Sets the base font size and enables smooth scrolling when clicking links */
+html {
+    font-size: 16px; 
+    scroll-behavior: smooth; 
+}
+
+/* Styles for the body element, including background color, text color, font family, and line height for improved readability */
+body {
+    background-color: var(--color-bg); 
+    color: var(--color-text); 
+    font-family: var(--font-body); 
+    font-weight: 300;
+    line-height: 1.7;
+    min-height: 100vh; 
 }
